@@ -1,0 +1,46 @@
+.btn-Decrement{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin:10px;
+    color: #fff;
+    cursor: pointer;
+    background-color: red;
+}
+.btn-Decrement:hover{
+    border: 1px solid #000;
+}
+.btn-Reset{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin:10px;
+    color: #fff;
+    cursor: pointer;
+    background-color: black;
+}
+.btn-Reset:hover{
+    border: 1px solid #000;
+}
+.btn-Increment{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin:10px;
+    color: #fff;
+    cursor: pointer;
+    background-color: green;
+}
+.btn-Increment:hover{
+    border: 1px solid #000;
+}
+
+.count{
+    width: 100px;
+    background: gray;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+}
