@@ -33,7 +33,7 @@ style="background-color: aqua; height: 100px; width: 100px;">
 <button (click)="hideDiv()">Hide Div</button>
 <button (click)="toggle()">Toggle Div</button> -->
 
-<button (click)="handleColor(1)">Red</button>
+<!-- <button (click)="handleColor(1)">Red</button>
 <button (click)="handleColor(2)">Green</button>
 <button (click)="handleColor(3)">Yellow</button>
 <button (click)="handleColor(10)">Black</button>
@@ -53,5 +53,9 @@ style="background-color: aqua; height: 100px; width: 100px;">
 }@else 
 {
     <div style="width: 200px; height: 200px; background-color: black;"></div>
-}
+} -->
 
+<h2>{{x}}</h2>
+<button (click)="UpdateValue('inc')" type="button" class="btn btn-primary">+ </button>
+<h2>{{count()}}</h2>
+<button (click)="UpdateValue('dec')">-</button>
